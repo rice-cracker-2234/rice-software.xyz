@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+* {
+  @apply m-0 p-0 duration-150;
+}
+
+body {
+  @apply
+    bg-white text-black/75
+    dark:bg-black dark:text-white/75
+    text-[14px];
+}
+
+hr {
+  @apply border-white dark:border-neutral-700 my-2;
+}
+
+.btn {
+  @apply
+    bg-black border-black text-white hover:bg-transparent hover:text-black
+    dark:bg-white dark:border-white dark:text-black dark:hover:text-white
+    font-medium border-[1px] px-4 py-1 flex items-center gap-4;
+
+  &.btn-rounded {
+    @apply rounded;
+  }
+
+  &.btn-transparent {
+    @apply
+      bg-transparent hover:bg-black/5 text-black/75 hover:text-black
+      dark:hover:bg-white/5 dark:text-white/75 dark:hover:text-white
+      font-normal border-0;
+  }
+}
+
+.card {
+  @apply
+    bg-white text-black/50 border-black
+    dark:bg-black dark:text-white/75 dark:border-[1px] dark:border-neutral-700
+    shadow-black/10 shadow-lg rounded-lg m-4 p-4;
+
+  &.card-outline {
+    @apply border-[1px] p-0 py-2
+  }
+}
