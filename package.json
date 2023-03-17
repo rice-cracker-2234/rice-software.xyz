@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "yarn prod:prisma migrate deploy && next build",
     "start": "next start",
     "lint": "next lint",
     "prisma": "dotenv -e .env.local -- prisma",
-    "prod:prisma": "dotenv -e .env.production -- prisma"
+    "prod:prisma": "dotenv -e .env.production.local -- prisma"
   },
   "dependencies": {
     "@next-auth/prisma-adapter": "^1.0.5",
