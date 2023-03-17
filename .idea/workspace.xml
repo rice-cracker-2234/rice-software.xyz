@@ -5,39 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32fcae29-8eba-4917-b986-076ed8954509" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prisma/migrations/20230316054051_/migration.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prisma/migrations/migration_lock.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/thirteen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/prisma/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/auth/[...nextauth].ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/api/hello.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
@@ -113,8 +82,16 @@
       <workItem from="1678930353898" duration="2731000" />
       <workItem from="1678935802168" duration="454000" />
       <workItem from="1678936273802" duration="4717000" />
-      <workItem from="1678942578380" duration="16426000" />
+      <workItem from="1678942578380" duration="18105000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1678975830141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678975830141</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
