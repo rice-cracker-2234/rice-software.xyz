@@ -10,11 +10,17 @@ body {
   @apply
     bg-white text-black/75
     dark:bg-black dark:text-white/75
-    text-[14px];
+    text-[16px] md:text-[14px] overflow-x-hidden;
 }
 
 hr {
   @apply border-white dark:border-neutral-700 my-2;
+}
+
+button {
+  @apply
+    text-black/75 hover:text-black
+    dark:text-white/75 dark:hover:text-white
 }
 
 .btn {
@@ -37,11 +43,17 @@ hr {
 
 .card {
   @apply
-    bg-white text-black/50 border-black
-    dark:bg-black dark:text-white/75 dark:border-[1px] dark:border-neutral-700
-    shadow-black/10 shadow-lg rounded-lg m-4 p-4;
+  bg-white text-black/50 border-black
+  dark:bg-black dark:text-white/75 dark:border-[1px] dark:border-neutral-700
+  shadow-black/10 shadow-lg rounded-lg m-4 p-4;
 
   &.card-outline {
     @apply border-[1px] p-0 py-2
   }
+}
+
+.rainbow {
+  box-shadow:
+    -16px -16px 64px red,
+    16px 16px 64px blue;
 }
